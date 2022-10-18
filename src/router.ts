@@ -3,7 +3,7 @@ const router=createRouter({
     history:createWebHashHistory(),
     routes:[{
         name:'home',
-        path:'home',
+        path:'/home',
         component:()=>{return import('./views/home.vue') }
     }]
 })
