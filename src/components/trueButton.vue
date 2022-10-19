@@ -3,9 +3,10 @@ import { ref, reactive } from 'vue';
 
 </script>
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+<div>
+
+</div>
 </template>
 <style scope lang='scss'>
+
 </style>
