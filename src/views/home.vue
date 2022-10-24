@@ -7,10 +7,6 @@ const router = useRouter()
 const toButton = () => {
     router.push('/button')
 }
-// const toButton = () => {
-//     activeComponent.value = trueButton
-// };
-// const activeComponent = shallowRef(trueButton2)
 </script>
 <template>
     <div>
@@ -19,13 +15,10 @@ const toButton = () => {
                 Buttton按钮
             </label>
         </div>
-        <!-- <transition name="fade" mode="out-in">
-            <component :is="activeComponent"></component>
-        </transition> -->
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.5s ease;
