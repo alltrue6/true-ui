@@ -7,10 +7,7 @@ import { ref, reactive } from 'vue';
         <div>
             <button>Default</button>
             <button>Primary</button>
-            <button>Success</button>
-            <button>Info</button>
-            <button>Warning</button>
-            <button>Danger</button>
+   
         </div>
     </transition>
 </template>

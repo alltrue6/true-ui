@@ -3,9 +3,20 @@ import { ref, reactive } from 'vue';
 
 </script>
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+  <router-view v-slot="{ Component }">
+    <transition name="fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
 </template>
-<style scope lang='scss'>
+<style scope>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>
