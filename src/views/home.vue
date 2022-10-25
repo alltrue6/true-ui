@@ -1,8 +1,6 @@
 <script setup lang='ts'>
-import { ref, reactive, shallowRef } from 'vue';
 import { useRouter } from 'vue-router';
-import trueButton from "../components/trueButton.vue";
-import trueButton2 from "../components/trueButton2.vue";
+
 const router = useRouter()
 const toButton = () => {
     router.push('/button')

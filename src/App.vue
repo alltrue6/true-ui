@@ -1,6 +1,4 @@
 <script setup lang='ts'>
-import { ref, reactive } from 'vue';
-
 </script>
 <template>
   <router-view v-slot="{ Component }">
@@ -9,7 +7,7 @@ import { ref, reactive } from 'vue';
     </transition>
   </router-view>
 </template>
-<style scope>
+<style scope lang="scss">
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;
