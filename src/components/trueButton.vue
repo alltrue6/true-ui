@@ -3,7 +3,6 @@ import { ref, reactive } from 'vue';
 
 </script>
 <template>
-    <transition>
         <div class="trueButton">
             <button class="Default">Default</button>
             <button class="Primary">Primary</button>
@@ -12,7 +11,6 @@ import { ref, reactive } from 'vue';
             <button class="Warning">Warning</button>
             <button class="Danger">Danger</button>
         </div>
-    </transition>
 </template>
 <style scope lang='scss'>
 .trueButton {
