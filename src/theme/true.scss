@@ -1,0 +1,33 @@
+// pubilc
+.flex{
+    display: flex;
+};
+.flex-wrap{
+    flex-wrap: nowrap
+};
+
+
+// button
+.trueButton {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    transition: .1s;
+    user-select: none;
+    vertical-align: middle;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 14px;
+}
+
+.trueButton--default {
+    color: #606266;
+    background-color: #fff;
+    border-color: #606266;
+}
