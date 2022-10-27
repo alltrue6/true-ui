@@ -1,11 +1,37 @@
 // pubilc
-.flex{
+.flex {
     display: flex;
-};
-.flex-wrap{
-    flex-wrap: nowrap
-};
+}
 
+.flex-wrap {
+    flex-wrap: nowrap
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.radius-min {
+    border-radius: 4px;
+}
+
+.radius-max {
+    border-radius: 30px;
+}
+
+.round {
+    border-radius: 100%;
+}
+
+.round_btn {
+    padding: 10px !important;
+    border-radius: 100%;
+}
+
+.disable {
+    cursor: not-allowed !important;
+    opacity: 0.6;
+}
 
 // button
 .trueButton {
@@ -24,10 +50,41 @@
     border-width: 1px;
     border-style: solid;
     padding: 7px 14px;
+    margin-left: 7px;
 }
 
 .trueButton--default {
     color: #606266;
     background-color: #fff;
     border-color: #606266;
+}
+
+.trueButton--primary {
+    color: #fff;
+    background: #1890ff;
+    border-color: #1890ff;
+}
+
+.trueButton--success {
+    color: #fff;
+    background: #67c23a;
+    border-color: #67c23a;
+}
+
+.trueButton--info {
+    color: #fff;
+    background: #909399;
+    border-color: #909399;
+}
+
+.trueButton--warning {
+    color: #fff;
+    background: #e6a23c;
+    border-color: #e6a23c;
+}
+
+.trueButton--danger {
+    color: #fff;
+    background: #f56c6c;
+    border-color: #f56c6c;
 }
