@@ -15,6 +15,11 @@ const router = createRouter({
             name: 'trueButton',
             path: '/button',
             component: () => import('./components/trueButton.vue')
+        },
+        {
+            name: 'trueBorder',
+            path: '/border',
+            component: () => import('./components/trueBorder.vue')
         }
     ]
 })

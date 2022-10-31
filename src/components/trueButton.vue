@@ -54,6 +54,14 @@
             <button class="trueButton trueButton--danger radius-min disable" disabled>Danger</button>
         </div>
         <!-- 按钮组 -->
+        <div class="flex flex wrap mt-10">
+            <button class="trueButton trueButton--default round_btn true--loading"></button>
+            <button class="trueButton trueButton--primary round_btn"></button>
+            <button class="trueButton trueButton--success round_btn"></button>
+            <button class="trueButton trueButton--info round_btn"></button>
+            <button class="trueButton trueButton--warning round_btn"></button>
+            <button class="trueButton trueButton--danger round_btn"></button>
+        </div>
     </div>
     
 </template>

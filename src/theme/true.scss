@@ -33,6 +33,11 @@
     opacity: 0.6;
 }
 
+.true_menu {
+    display: inline-flex;
+    flex-direction: column;
+}
+
 // button
 .trueButton {
     display: inline-flex;
@@ -88,3 +93,7 @@
     background: #f56c6c;
     border-color: #f56c6c;
 }
+
+// .true--loading::after{
+//     cursor: pointer;
+// }
