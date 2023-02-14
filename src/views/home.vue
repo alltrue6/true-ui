@@ -24,12 +24,10 @@ const toButton = (item: Router) => {
 }
 </script>
 <template>
-    <div>
-        <div class="true_menu">
-            <label for="通用组件" v-for="(item, index) in routeList" @click="toButton(item)">
-                {{ item.title }}
-            </label>
-        </div>
+    <div class="true_menu">
+        <label for="通用组件" v-for="(item, index) in routeList" @click="toButton(item)">
+            {{ item.title }}
+        </label>
     </div>
 </template>
 
