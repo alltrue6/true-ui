@@ -17,6 +17,10 @@ const routeList = ref([
         title: 'Border边框',
         label: '/border'
     }
+    , {
+        title: 'Link链接',
+        label: '/link'
+    }
 ])
 
 const toButton = (item: Router) => {

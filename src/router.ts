@@ -20,6 +20,11 @@ const router = createRouter({
             name: 'trueBorder',
             path: '/border',
             component: () => import('./components/trueBorder.vue')
+        },
+        {
+            name: 'trueLink',
+            path: '/link',
+            component: () => import('./components/trueLink.vue')
         }
     ]
 })
