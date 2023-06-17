@@ -1,1 +1,2 @@
-"朴实无华且枯燥" 
+npn install
+npm run dev

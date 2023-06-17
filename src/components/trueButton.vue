@@ -2,6 +2,7 @@
 
 </script>
 <template>
+    <div class="content">
         <!-- 基础用法 -->
         <div class="flex flex-wrap mt-10">
             <button class="trueButton trueButton--default">Default</button>
@@ -61,8 +62,6 @@
             <button class="trueButton trueButton--warning round_btn"></button>
             <button class="trueButton trueButton--danger round_btn"></button>
         </div>
-    
+    </div>
 </template>
-<style scope lang='scss'>
-
-</style>
+<style scope lang='scss'></style>
