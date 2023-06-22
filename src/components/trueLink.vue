@@ -5,7 +5,7 @@
 <template>
     <div class="content">
         <div class="flex flex-wrap mt-10">
-            <a href="" class="trueLink">Default</a>
+            <a href="#" class="trueLink">Default</a>
         </div>
     </div>
 </template>

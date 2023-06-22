@@ -12,5 +12,8 @@ export default defineConfig({
         additionalData: `@use '/src/theme/true.scss';`
       }
     }
+  },
+  build: {
+    outDir:'trueUi'
   }
 })

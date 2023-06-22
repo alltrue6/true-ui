@@ -1,0 +1,1 @@
+import{_ as t,o as s,c,e}from"./index.de43e2fd.js";const o={},a={class:"content"},n=e("div",{class:"flex flex-wrap mt-10"},[e("a",{href:"#",class:"trueLink"},"Default")],-1),r=[n];function _(f,i){return s(),c("div",a,r)}const d=t(o,[["render",_]]);export{d as default};
