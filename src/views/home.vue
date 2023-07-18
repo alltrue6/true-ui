@@ -1,40 +1,38 @@
 <script setup lang='ts'>
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-import { ref, reactive } from 'vue';
 
 interface Router {
-    title: String
-    label?: any
+  title: String
+  label?: any
 }
 
 const router = useRouter()
 
 const routeList = ref([
-    {
-        title: 'Button按钮',
-        label: '/button'
-    }, {
-        title: 'Border边框',
-        label: '/border'
-    }
-    , {
-        title: 'Link链接',
-        label: '/link'
-    }
+  {
+    title: 'Button按钮',
+    label: '/button'
+  }, {
+    title: 'Border边框',
+    label: '/border'
+  }
+  , {
+    title: 'Link链接',
+    label: '/link'
+  }
 ])
 
 const toButton = (item: Router) => {
-    router.push(item.label)
+  router.push(item.label)
 }
 </script>
 <template>
-    <div class="true_menu">
-        <label for="通用组件" v-for="(item, index) in routeList" @click="toButton(item)">
-            {{ item.title }}
-        </label>
-    </div>
+  <div class="true_menu">
+    <label for="通用组件" v-for="(item, index) in routeList" @click="toButton(item)">
+      {{ item.title }}
+    </label>
+  </div>
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
