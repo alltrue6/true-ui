@@ -1,8 +1,8 @@
 <script setup lang="ts" name="">
-import { inject } from 'vue';
-const props = defineProps()
-const emit = defineEmits()
-const count = inject('')
+import { inject } from "vue";
+const props = defineProps();
+const emit = defineEmits();
+const count = inject("");
 </script>
 
 <template>

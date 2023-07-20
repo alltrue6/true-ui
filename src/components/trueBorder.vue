@@ -1,8 +1,8 @@
-<script setup lang='ts'>
-import { inject } from 'vue';
-const props = defineProps()
-const emit = defineEmits()
-const count = inject('')
+<script setup lang="ts">
+import { inject } from "vue";
+const props = defineProps();
+const emit = defineEmits();
+const count = inject("");
 </script>
 <template>
   <div class="content">
@@ -19,4 +19,4 @@ const count = inject('')
     </div>
   </div>
 </template>
-<style scope lang='scss'></style>
+<style scope lang="scss"></style>

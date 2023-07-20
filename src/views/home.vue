@@ -1,31 +1,32 @@
-<script setup lang='ts'>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+<script setup lang="ts">
+import { ref } from "vue";
+import { useRouter } from "vue-router";
 
 interface Router {
-  title: String
-  label?: any
+  title: String;
+  label?: any;
 }
 
-const router = useRouter()
+const router = useRouter();
 
 const routeList = ref([
   {
-    title: 'Button按钮',
-    label: '/button'
-  }, {
-    title: 'Border边框',
-    label: '/border'
-  }
-  , {
-    title: 'Link链接',
-    label: '/link'
-  }
-])
+    title: "Button按钮",
+    label: "/button",
+  },
+  {
+    title: "Border边框",
+    label: "/border",
+  },
+  {
+    title: "Link链接",
+    label: "/link",
+  },
+]);
 
 const toButton = (item: Router) => {
-  router.push(item.label)
-}
+  router.push(item.label);
+};
 </script>
 <template>
   <div class="true_menu">
