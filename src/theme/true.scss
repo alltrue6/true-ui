@@ -1,4 +1,4 @@
-// pubilc
+/** public**/
 .flex {
     display: flex;
 }
@@ -38,7 +38,7 @@
     flex-direction: column;
 }
 
-// button
+/** button**/
 .trueButton {
     display: inline-flex;
     justify-content: center;
@@ -94,7 +94,7 @@
     border-color: #f56c6c;
 }
 
-// border
+/** border**/
 .trueBorder {
     display: inline-block;
     border: 1px solid #dcdfe6;
@@ -116,7 +116,7 @@
 .Shadow--Dark {
     box-shadow: 0px 16px 48px 16px rgba(0, 0, 0, .08), 0px 12px 32px rgba(0, 0, 0, .12), 0px 8px 16px -8px rgba(0, 0, 0, .16);
 }
-// link
+/** link**/
 .trueLink{
 
 }
