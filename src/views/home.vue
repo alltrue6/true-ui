@@ -2,11 +2,6 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 
-interface Router {
-  title: String;
-  label?: any;
-}
-
 const router = useRouter();
 
 const routeList = ref([
@@ -23,7 +18,6 @@ const routeList = ref([
     label: "/link",
   },
 ]);
-
 const toButton = (item: Router) => {
   router.push(item.label);
 };
